@@ -24,6 +24,7 @@ for type in $TYPES; do
     echo $EXTRACT_FILE_PATH
 
     python src/extract.py "$EXTRACT_FILE_PATH" "$EXTRACTED_FILE_PATH"
+    gzip "$EXTRACTED_FILE_PATH"
 done
 
 rm -Rf "$TEMP"
