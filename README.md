@@ -7,3 +7,8 @@ As a first study we'll work with the [FordA](http://www.timeseriesclassification
 ## Installation
 
     $ ./install.sh
+
+## Docker
+To use Anaconda notebook on a docker:
+
+    $ docker-compose up
