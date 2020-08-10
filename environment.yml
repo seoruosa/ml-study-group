@@ -1,0 +1,12 @@
+
+name: ml-study-group-environment
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - pandas
+  - bokeh
+  - seaborn
