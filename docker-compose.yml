@@ -8,6 +8,6 @@ services:
         ports: 
             - "8888:8888"
         volumes:
-            - ~/code/ml-study-group/:/opt/ml-study-group/notebooks
+            - ~/code/ml-study-group:/opt/ml-study-group/notebooks
         tty:
             true
