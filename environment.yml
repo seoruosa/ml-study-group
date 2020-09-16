@@ -11,3 +11,6 @@ dependencies:
   - bokeh
   - seaborn
   - tsfresh
+  - pip:
+    - xgboost
+    - lightgbm

@@ -3,8 +3,9 @@ version: '3'
 services: 
     anaconda:
         image: "continuumio/anaconda3"
-        command: 
-            /opt/conda/bin/jupyter notebook --notebook-dir=/opt/ml-study-group/notebooks --ip='*' --port=8888 --no-browser --allow-root
+        command: >
+            bash -c " pip install xgboost lightgbm
+            && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/ml-study-group/notebooks --ip='*' --port=8888 --no-browser --allow-root"
         ports: 
             - "8888:8888"
         volumes:

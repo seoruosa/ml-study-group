@@ -10,7 +10,7 @@ def txtToCSV(filepath, outPath):
             for idx, line in enumerate(file):
                 splitedLine = re.split("[ ]+", line)[1:]
                 if idx == 0:
-                    out.write(f"class,{','.join([str(i) for i in range(len(splitedLine))])}\n")
+                    out.write(f"class,{','.join([str(i) for i in range(len(splitedLine)-1)])}\n")
                 out.write(",".join(splitedLine))
                 i += 1
 
