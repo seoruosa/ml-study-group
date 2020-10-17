@@ -1,0 +1,5 @@
+numpy==1.19.1
+pandas==1.1.0
+tsfresh==0.16.0
+statsmodels==0.11.1
+sktime==0.4.1
